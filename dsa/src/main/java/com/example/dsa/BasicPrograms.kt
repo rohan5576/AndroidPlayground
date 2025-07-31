@@ -33,6 +33,12 @@ fun main() {
     val arr = intArrayOf(10, 40, 20, 30, 50)
     println("Second largest: ${secondLargest(arr)}")
 
+
+    var str = "I am word best coder"
+    println("Smallest word ${getSmallestWord(str)}")
+
+    println("Last Smallest word ${getLastSmallestWord(str)}")
+
 }
 
 
@@ -94,4 +100,31 @@ fun secondLargest(nums:IntArray):Int?{
         }
     }
     return if (second == Int.MIN_VALUE) null else second
+}
+
+
+//smallest word and get last smallest word
+fun getSmallestWord(string:String):String {
+    var words= string.split(" ")
+    var smallestword = words[0]
+    for(word in words){
+        if(word.length < smallestword.length){
+            smallestword = word
+        }
+    }
+
+    return smallestword
+}
+
+fun getLastSmallestWord(input: String): String {
+    val words = input.split(" ").filter { it.isNotEmpty() }
+    if (words.isEmpty()) return ""
+
+    var smallestWord = words[0]
+    for (word in words) {
+        if (word.length <= smallestWord.length) {
+            smallestWord = word
+        }
+    }
+    return smallestWord
 }
