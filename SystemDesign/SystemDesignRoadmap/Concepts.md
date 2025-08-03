@@ -142,3 +142,72 @@ Data is divided based on **user region or geography**.
 | Vertical | Tables/features | Modular apps | Table size not reduced |
 | Geo-Based | User region | Global apps | Unbalanced usage |
 
+
+
+# 🛑 What Are Bottlenecks in System Design?
+
+A **bottleneck** is a component in a system that **slows down or limits the overall performance** of the system.
+
+Just like water slows down at the neck of a bottle, a bottleneck in a system means **one part is overloaded**, while other parts are waiting or idle.
+
+---
+
+## 🚦 Common Types of Bottlenecks
+
+### 1. **CPU Bottleneck**
+- When the processor is working too hard and can't keep up.
+- Example: Too many concurrent requests for computation-heavy tasks.
+
+### 2. **Memory Bottleneck**
+- Not enough RAM to handle in-memory operations.
+- Leads to swapping or crashing.
+
+### 3. **Disk I/O Bottleneck**
+- Reading/writing from storage is too slow.
+- Common in file-heavy or log-heavy systems.
+
+### 4. **Network Bottleneck**
+- Limited bandwidth or slow network connections.
+- Example: Too many API calls or slow external service responses.
+
+### 5. **Database Bottleneck**
+- Database queries are slow or locked.
+- High read/write load, poor indexing, or no caching.
+
+### 6. **Code-Level Bottleneck**
+- Inefficient loops, recursion, or blocking code.
+- Single-threaded bottlenecks in multi-threaded environments.
+
+---
+
+## 📉 Symptoms of Bottlenecks
+
+- Slow response time
+- High CPU or memory usage
+- Timeouts or failed requests
+- Uneven load distribution
+- Poor scalability
+
+---
+
+## ✅ How to Avoid or Fix Bottlenecks
+
+| Strategy | Description |
+|----------|-------------|
+| **Load Balancing** | Distribute traffic evenly across servers |
+| **Caching** | Store frequently accessed data in memory |
+| **Database Optimization** | Use indexing, sharding, query tuning |
+| **Asynchronous Processing** | Use queues for background tasks |
+| **Scaling** | Add more servers (horizontal scaling) |
+| **Monitoring** | Use tools (Prometheus, Grafana, etc.) to detect slow components |
+
+---
+
+## 📱 Example: Bottlenecks in Android App Backend
+
+Let’s say your Android app sends user quiz data to the server:
+
+- **Database bottleneck**: If every request writes directly to DB, it can get slow.
+- **Network bottleneck**: If too many users are uploading at once, server bandwidth may be maxed.
+- **Fix**: Queue writes using a message broker (like Kafka), and batch save to DB.
+
