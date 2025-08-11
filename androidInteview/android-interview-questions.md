@@ -5,3 +5,9 @@
 ## Another Resources:
 
 1. [Android Interview Questions and Answers](https://github.com/amitshekhariitbhu/android-interview-questions)
+2. https://dtechsaurabh.medium.com/workmanager-in-android-full-interview-guide-with-examples-d72f1b2f72ec
+3. https://dtechsaurabh.medium.com/harman-android-interview-questions-explained-simply-for-beginners-intermediates-4e3e036d73d1
+4. https://dtechsaurabh.medium.com/virtusa-android-interview-kotlin-android-core-explained-simply-373cf9ec06bb
+5. https://dtechsaurabh.medium.com/synechron-android-interview-key-topics-explained-synechron-edition-01e729bf0083
+6. https://dtechsaurabh.medium.com/tcs-android-kotlin-interview-questions-1f91320c0f63
+7. https://dtechsaurabh.medium.com/mastering-dsa-from-scratch-a-roadmap-for-experienced-app-developers-02542998aa61
