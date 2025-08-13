@@ -103,6 +103,55 @@ Mastering these ensures you won’t get stuck on simple logic questions.
 
 ## Week 2 – Strings (Sliding Window, Hashing, Expansion)
 
+# 🧠 DSA Patterns Cheat Sheet – Strings
+
+A quick reference of **string-related DSA patterns** with problem links for practice.
+
+---
+
+## 1️⃣ Two Pointers
+**When to use:** Comparing characters from both ends or moving inward from both sides.  
+**Key idea:** Use two indices (start, end) and adjust them towards each other.
+
+**Problems:**
+- [Valid Palindrome](https://lnkd.in/evA6W5Nf)  
+- [Reverse Words in a String](https://lnkd.in/e9ezwk4E)  
+- [Longest Palindromic Substring](https://lnkd.in/eS2J9eFn)  
+
+---
+
+## 2️⃣ Sliding Window
+**When to use:** Finding substrings or subarrays with dynamic constraints (length, frequency, sum).  
+**Key idea:** Maintain a moving window of elements while adjusting start/end pointers.
+
+**Problems:**
+- [Minimum Window Substring](https://lnkd.in/eCcc5bPW)  
+- [Longest Substring Without Repeating Characters](https://lnkd.in/ekhJ5fPW)  
+- [Longest Substring with At Most K Distinct Characters](https://lnkd.in/ezaxRCdu)  
+
+---
+
+## 3️⃣ Hash Maps
+**When to use:** Frequency counting, quick lookups, grouping data.  
+**Key idea:** Store counts or mappings for O(1) access.
+
+**Problems:**
+- [Group Anagrams](https://lnkd.in/epgUM5R4)  
+- [First Unique Character in a String](https://lnkd.in/eCxxzAD4)  
+- [Valid Anagram](https://lnkd.in/e7CwaydW)  
+
+---
+
+## 4️⃣ String Manipulation
+**When to use:** Formatting, parsing, or transforming strings into new structures.  
+**Key idea:** Work character-by-character or with built-in string methods.
+
+**Problems:**
+- [Reverse String](https://lnkd.in/eQWyVC8h)  
+- [String to Integer (atoi)](https://lnkd.in/eEwkvS27)  
+- [Count and Say](https://lnkd.in/ez62RhHa)  
+
+
 **Day 6**
 - (E) Valid Anagram – Sorting / HashMap  
 - (E) Palindrome Checker – Two Pointers  
