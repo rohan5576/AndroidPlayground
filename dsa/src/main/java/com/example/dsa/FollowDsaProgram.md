@@ -10,6 +10,72 @@ This is a curated **8-week daily plan** for mastering DSA problems relevant to *
 
 ---
 
+# 🚀 Basic Coding Warm-up 
+Mastering these ensures you won’t get stuck on simple logic questions.
+
+---
+
+## 📜 String Problems
+- Reverse a string (without built-in `reverse`)
+- Check if a string is a palindrome
+- Find the first non-repeating character
+- Count occurrences of each character
+- Remove duplicate characters
+- Check if two strings are anagrams
+- Find the longest word in a sentence
+- Capitalize the first letter of each word
+
+---
+
+## 📦 Array Problems
+- Find the maximum and minimum element
+- Remove duplicates from an array
+- Find the intersection of two arrays
+- Rotate an array by `k` positions
+- Find the missing number in a sequence
+- Move all zeroes to the end
+- Find the second largest element
+- Merge two sorted arrays
+
+---
+
+## 🔢 Number Problems
+- Check if a number is prime
+- Generate Fibonacci sequence up to `n`
+- Find the factorial of a number
+- Reverse the digits of a number
+- Check if a number is an Armstrong number
+- Find GCD and LCM of two numbers
+- Check if a number is a perfect square
+- Find the sum of digits of a number
+
+---
+
+## 🎨 Pattern Problems
+- FizzBuzz
+- Print a pyramid pattern of stars
+- Print Pascal’s triangle
+- Print the multiplication table for a given number
+
+---
+
+## 🔍 Searching & Sorting
+- Implement Linear Search
+- Implement Binary Search
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+
+---
+
+## 🔄 Recursion Basics
+- Reverse a string using recursion
+- Calculate factorial using recursion
+- Generate Fibonacci using recursion
+- Find sum of array elements using recursion
+
+---
+
 ## Week 1 – Arrays (Iteration, Two Pointers, Hashing)
 
 **Day 1**
