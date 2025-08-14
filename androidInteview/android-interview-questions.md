@@ -11,3 +11,4 @@
 5. https://dtechsaurabh.medium.com/synechron-android-interview-key-topics-explained-synechron-edition-01e729bf0083
 6. https://dtechsaurabh.medium.com/tcs-android-kotlin-interview-questions-1f91320c0f63
 7. https://dtechsaurabh.medium.com/mastering-dsa-from-scratch-a-roadmap-for-experienced-app-developers-02542998aa61
+8. https://medium.com/@monikabhasin.sd17/2025-crack-android-interviews-advanced-viewmodel-livedata-kotlin-flow-questions-1ff3065ad7e7
