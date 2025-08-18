@@ -286,3 +286,7 @@ fun countDuplicatesFast(arr: List<Int>): Int {
 * **Trade-offs exist**: Use memory (hashmap, caching) to speed up performance.
 * Don’t memorize → **understand patterns**.
 
+
+## Some important blogs:
+https://dtechsaurabh.medium.com/time-and-space-complexity-big-o-notation-overview-with-real-life-examples-ed8fa13839e4
+https://medium.com/coding-nexus/dsa-lecture-2-the-hidden-cost-of-code-understanding-time-and-space-complexity-13cd4f1f44cf
