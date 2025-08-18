@@ -13,3 +13,4 @@
 7. https://dtechsaurabh.medium.com/mastering-dsa-from-scratch-a-roadmap-for-experienced-app-developers-02542998aa61
 8. https://medium.com/@monikabhasin.sd17/2025-crack-android-interviews-advanced-viewmodel-livedata-kotlin-flow-questions-1ff3065ad7e7
 9. https://medium.com/@sreeshtyray/android-interview-questions-must-solve-by-aspiring-android-devs-f723484e2d0c
+10. https://medium.com/codetodeploy/android-interview-mastery-15-essential-questions-on-synchronous-vs-asynchronous-programming-1c55557448ae
