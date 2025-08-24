@@ -16,3 +16,4 @@
 10. https://medium.com/codetodeploy/android-interview-mastery-15-essential-questions-on-synchronous-vs-asynchronous-programming-1c55557448ae
 11. https://medium.com/@trricho/mastering-kotlin-flow-10-advanced-interview-questions-for-senior-android-devs-a4f8c8b602e2
 12. https://medium.com/codetodeploy/android-interview-mastery-15-essential-questions-about-parallel-network-calls-with-kotlin-fbcd0a47328a
+13. https://trricho.medium.com/think-you-know-kotlin-coroutines-10-interview-questions-that-stump-senior-devs-68a6ca88cc7c
