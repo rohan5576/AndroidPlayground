@@ -1,6 +1,7 @@
 ## Articles
 
 1. [🌊🔝My Job Interview Experience : Senior Android Developer Role💥](https://freedium.cfd/https://medium.com/@niranjanky14/my-job-interview-experience-senior-android-developer-role-a1026a2daeb4)
+2. https://medium.com/@hiren6997/android-interview-in-30-minutes-heres-your-last-minute-survival-guide-57109ca52d7a
 
 ## Another Resources:
 
