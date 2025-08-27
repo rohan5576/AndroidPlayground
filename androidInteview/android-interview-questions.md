@@ -19,3 +19,4 @@
 12. https://medium.com/codetodeploy/android-interview-mastery-15-essential-questions-about-parallel-network-calls-with-kotlin-fbcd0a47328a
 13. https://trricho.medium.com/think-you-know-kotlin-coroutines-10-interview-questions-that-stump-senior-devs-68a6ca88cc7c
 14. https://medium.com/@sharmapraveen91/kotlin-flow-the-deep-dive-every-android-dev-should-read-before-their-next-interview-e43b78cdee32
+15. https://medium.com/@ak123aryan/30-kotlin-interview-questions-cf8bf9e8c3c6
