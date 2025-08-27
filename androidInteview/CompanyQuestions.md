@@ -64,3 +64,20 @@ Meesho
 - val vs const
 - inline keyword
 - lateinit vs lazy
+
+intuit
+https://medium.com/@akshat.applications/android-coding-round-intuit-4178c887ac85
+
+
+Infosys canada 
+https://medium.com/@akshat.applications/android-lead-developer-infosys-canada-3a31a742b25e
+
+FGF Brand
+https://medium.com/@akshat.applications/senior-android-developer-interview-fgf-brands-c71910fa83b4
+
+Lime
+https://medium.com/@akshat.applications/interview-experience-android-engineer-lime-2d35dbfe1e06
+
+Shopify 
+https://medium.com/@akshat.applications/android-pair-programming-round-shopify-a3fae01ec683
+
