@@ -81,3 +81,6 @@ https://medium.com/@akshat.applications/interview-experience-android-engineer-li
 Shopify 
 https://medium.com/@akshat.applications/android-pair-programming-round-shopify-a3fae01ec683
 
+zepto
+https://medium.com/@avula.koti.realpage/cracked-zepto-android-developer-interview-5046b88c6311
+
