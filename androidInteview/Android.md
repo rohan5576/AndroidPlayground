@@ -499,3 +499,39 @@ If B is standard → old B destroyed, new B created
 5. yield() is for checking, not for pausing.
 
 ➜ yield() doesn't pause your code. It just quickly checks if other coroutines need to run or if the job was cancelled. For any heavy processing work, you should always move it to a background thread using withContext(Dispatchers(.)Default).
+
+
+----
+
+## Jetpack Compose
+
+- How to launch a coroutine from a composable function? - LaunchedEffect
+- How to launch a coroutine from a non-composable function, but tied to composition? - rememberCoroutineScope()
+- What is recomposition? Recomposition
+- What is remember in compose?
+- A composable function to remember the value produced by a calculation only at the time of composition. It will not calculate again in recomposition.
+- Recomposition will always return the value produced by composition.
+- Whole Compose is based on the concept of Positional Memoization
+- At the time of recomposition, remember internally calls a function called rememberedValue() whose work is to look into the slotTable and compare if the - previous value and the new value have any difference, if not return, else update the value
+- Why and when to use remember {}?
+- Difference between LazyColumn and RecyclerView?
+- What is AndroidView in compose?
+- What is the lifecycle of composeables? Lifecycle
+- How to avoid recomposition of any composable, if the state is not changed? Smart Recomposition
+- What are stable types that can skip recomposition?
+- What is State?
+- What is MutableState and how does recomposition happen?
+vHow to retain State across recomposition and configuration changes?
+- Difference between Stateless and Stateful composeables?
+- What are your thoughts on flat hierarchy, constraint Layout in compose vs. the older view hierarchy in xml
+- Difference b/w remember and LaunchedEffect
+- Does re-composition of ComposeItem1 bring any effect on ComposeItem2? If yes, then how?
+ComposeParent() { ComposeItem1 {} ComposeItem2() {...} } 
+- What is CompositionLocal?
+- Custom views in compose
+- Canvas in Compose
+- What are the benefits of Jetpack Compose?
+- How does Jetpack Compose integrate with existing Android frameworks and libraries?
+- What are the best practices for performance optimization in Jetpack Compose?
+- How is navigation handled in Jetpack Compose?
+- What is Strong Skipping Mode? Answer
