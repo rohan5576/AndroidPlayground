@@ -233,3 +233,76 @@ Keep onReceive() lightweight.
 
 Prefer WorkManager for background tasks.
 
+
+# Android Services & Background Execution
+
+## 📌 Difference between Service, IntentService & JobIntentService
+
+| Feature               | Service                                  | IntentService                                | JobIntentService                                                                 |
+|-----------------------|------------------------------------------|----------------------------------------------|----------------------------------------------------------------------------------|
+| **Thread**            | Runs on main thread (UI thread)          | Runs on a background worker thread            | Runs as a Job; compatible with newer Android (Oreo+) versions                    |
+| **Task Handling**     | Can run multiple tasks concurrently       | Handles one intent at a time in a queue       | Similar to `IntentService` but supports Android O+ restrictions                  |
+| **Lifecycle**         | Manual management of start and stop       | Automatically stops after handling all intents| Can defer start based on system conditions, restarts as needed                   |
+| **Background Execution** | Restricted on Android Oreo and above   | Not recommended on newer Android versions     | Recommended replacement for `IntentService` for compatibility                    |
+| **Use Case**          | Long-running operations, multiple simultaneous | Short tasks, sequential processing       | Deferred, reliable background processing across OS versions                      |
+| **Behavior on App Kill** | Service stops abruptly                | Jobs may be lost                              | Job reschedules if app is killed                                                 |
+| **Notification Requirement** | Foreground services require notifications | Not automatically tied to notification | Requires foreground service if job needs immediate execution                     |
+
+---
+
+## ⚡ Foreground Service vs Background Service
+
+### Foreground Service
+- Runs with an ongoing **user-visible notification**.  
+- Use for tasks the user is actively aware of:  
+  - Music playback  
+  - File downloads  
+- Required for continuous tasks on **Android Oreo+** to prevent service kill.
+
+### Background Service
+- Runs without user-visible notification.  
+- Suitable for **short tasks** that don’t require user awareness.  
+- Subject to restrictions on **Android Oreo+** → may be killed by the system.  
+
+---
+
+## 📡 Dynamic vs Manifest-declared Broadcast Receivers
+
+### Manifest-declared Receivers
+- Declared **statically** in `AndroidManifest.xml`.  
+- Always able to receive broadcasts, even when the app is not running.  
+- Limited for **implicit broadcasts** in newer Android versions (battery optimization).  
+
+### Dynamic Receivers
+- Registered/unregistered at **runtime** in code (e.g., in an `Activity` or `Service`).  
+- Only active while the registering component is active.  
+- More flexible but **cannot always receive broadcasts if the app is not running**.  
+
+---
+
+## 🚫 Restrictions on Background Services (Android Oreo+)
+
+Since **Android Oreo (API level 26):**
+- Background services cannot run while the app is in the background **without a foreground notification**.  
+- Alternatives:  
+  - **WorkManager**  
+  - **JobScheduler**  
+  - **JobIntentService**  
+- Immediate background execution requires a **Foreground Service** with a notification.  
+
+---
+
+## 🎵 Practice: Build a Simple Music Player Service
+
+- Implement a **Foreground Service** to play music.  
+- Ensure the service runs with a **persistent notification**.  
+- Use a separate thread or `MediaPlayer` APIs for playback (avoid blocking UI thread).  
+- Show **controls** (Play, Pause, Stop) in the notification.  
+- Handle lifecycle properly:  
+  - Start service on **Play**.  
+  - Stop service on **completion** or user action.  
+
+---
+✅ This covers Services, IntentService, JobIntentService, Broadcast Receivers, and Background Execution restrictions with modern Android best practices.
+
+
