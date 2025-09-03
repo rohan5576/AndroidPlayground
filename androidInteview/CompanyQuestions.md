@@ -83,4 +83,5 @@ https://medium.com/@akshat.applications/android-pair-programming-round-shopify-a
 
 zepto
 https://medium.com/@avula.koti.realpage/cracked-zepto-android-developer-interview-5046b88c6311
+https://medium.com/stackademic/cracked-zepto-android-developer-interview-5046b88c6311
 
