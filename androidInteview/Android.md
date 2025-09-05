@@ -535,3 +535,261 @@ ComposeParent() { ComposeItem1 {} ComposeItem2() {...} }
 - What are the best practices for performance optimization in Jetpack Compose?
 - How is navigation handled in Jetpack Compose?
 - What is Strong Skipping Mode? Answer
+
+----
+# 🟢 Beginner Level
+# 🧠 Kotlin Basics
+- What is Kotlin? How is it different from Java?
+- What are the main features of Kotlin?
+- How does Kotlin handle null safety?
+- What is a val vs var?
+- What are nullable and non-nullable types?
+- What is the Elvis operator (?:)?
+- Explain the safe call operator (?.).
+- What is the use of !! in Kotlin?
+- What are extension functions?
+- How to write a simple class in Kotlin?
+- What is a data class?
+- How to define properties in Kotlin?
+- What is string interpolation in Kotlin?
+- What are default and named parameters?
+- How does Kotlin support functional programming?
+
+  
+# 🔁 Control Flow
+- Explain if, when, and for loops in Kotlin.
+- How is when better than switch in Java?
+- How does while and do-while loop work in Kotlin?
+  
+# 🧩 Functions
+- What is a lambda function in Kotlin?
+- What is a higher-order function?
+- What are default and named arguments?
+- What is an inline function?
+- What is a local function?
+- How to define a vararg parameter?
+- How to use infix notation in Kotlin?
+  
+
+# 📚 Collections
+
+- Difference between List, Set, and Map.
+- Mutable vs Immutable collections in Kotlin.
+- How to filter a list using Kotlin?
+- What are map, filter, and reduce?
+- How to sort a list in Kotlin?
+- What is the difference between flatMap and map?
+- What is the use of associateBy and groupBy?
+  
+# 📱 Android Basics (in Kotlin)
+- How to set up a basic Android project using Kotlin?
+- What is an Activity in Kotlin?
+- What is the role of XML in Android UI?
+- How to start a new Activity using Intent?
+- What is findViewById and how to use ViewBinding in Kotlin?
+- What is a RecyclerView?
+- What is the AndroidManifest.xml file for?
+- What are Fragments and their lifecycle?
+- How to pass data between activities using Kotlin?
+- How to handle runtime permissions in Kotlin?
+
+  
+# 🟡 Intermediate Level
+# 🧱 Object-Oriented Concepts in Kotlin
+- Difference between class and data class?
+- What are primary and secondary constructors?
+- Explain init block in Kotlin.
+- What is the difference between open, final, and abstract?
+- What is a sealed class?
+- What is an enum class?
+- What is an object declaration?
+- What is a companion object?
+- What is an interface in Kotlin?
+- Can an interface have default implementations?
+
+  
+ # 🔍 Advanced Kotlin Functions & Scoping
+- Difference between let, apply, also, run, and with.
+- What is scope function chaining?
+- What is the use of the this keyword?
+- What is it in Kotlin?
+- What are labeled returns?
+  
+# 🔤 Generics & Type System
+- How do you declare a generic class or function?
+- What is in and out in generics?
+- Explain Kotlin’s type inference.
+- What is a reified type in Kotlin?
+- What is typealias in Kotlin?
+  
+# 🌐 Coroutines (Basics)
+-  What are coroutines in Kotlin?
+- How to launch a coroutine?
+- What is suspend function?
+- What is GlobalScope, viewModelScope, and lifecycleScope?
+- Difference between launch and async.
+- What is withContext?
+- What are Dispatchers in Kotlin?
+- How to cancel coroutines?
+- How to handle exceptions in coroutines?
+  
+# 🧩 Android + Kotlin (MVVM, Lifecycle)
+- What is the MVVM architecture in Android?
+- What is LiveData and how is it used?
+- What is a ViewModel and why is it important?
+- How to observe LiveData in Kotlin?
+- What are lifecycle-aware components?
+- How to use Hilt for dependency injection in Android?
+- How does Room Database work in Kotlin?
+- What is a DAO in Room?
+- What is the suspend function in DAO?
+
+# 🔵 Advanced Level
+# 🔁 Coroutines & Concurrency
+- What is structured concurrency?
+- How does CoroutineExceptionHandler work?
+- What is SupervisorJob?
+- What is cold vs hot flow?
+- What is Kotlin Flow?
+- Difference between Flow, StateFlow, and SharedFlow.
+- What is collectLatest?
+- How to handle backpressure in flows?
+- What is debounce and throttle in flow?
+- What are operators in Flow?
+  
+# 🛠️ DSL (Domain Specific Language)
+- What is a Kotlin DSL?
+- How is Kotlin DSL used in Gradle?
+- Explain the builder pattern using Kotlin DSL.
+- How to create your own DSL in Kotlin?
+
+  
+# 🌍 Kotlin Multiplatform
+- What is Kotlin Multiplatform (KMP)?
+- What is expect and actual in KMP?
+- What platforms does KMP support?
+- What are some limitations of Kotlin Multiplatform?
+- How is code shared in Kotlin Multiplatform?
+  
+# 🏷️ Annotations & Reflection
+- How do you create a custom annotation?
+- How does Kotlin support reflection?
+- What is @JvmStatic, @JvmOverloads, and @JvmName?
+- What is kclass in Kotlin?
+- How to use Kotlin reflection?
+
+  
+# ⚙️ Performance & Memory
+- How does Kotlin manage memory?
+- What are inline classes?
+- What is value class in Kotlin 1.5+?
+- How does Kotlin handle boxing/unboxing?
+- How to optimize coroutine performance?
+  
+# 🎨 Jetpack Compose (Basics to Intermediate)
+- What is Jetpack Compose?
+- How is Compose different from XML?
+- How to create a Composable function?
+- What is @Composable annotation?
+- What is remember in Compose?
+- What is mutableStateOf?
+- How do recompositions work?
+- How to create a list using LazyColumn?
+- What is Modifier in Compose?
+- How to manage click events in Compose?
+- How to implement navigation in Compose?
+- What is rememberSaveable vs remember?
+- How to use LaunchedEffect?
+- How does SideEffect, DisposableEffect, and DerivedStateOf work?
+- How to integrate ViewModel with Compose?
+- How to observe LiveData or StateFlow in Compose?
+- How to manage themes and styling in Compose?
+- How to preview composables?
+- How to use Scaffold, TopAppBar, BottomNavigation?
+- How to create custom composables?
+- How to use ConstraintLayout in Compose?
+- What is Compose’s Slot API?
+
+  
+# 🔁 Common Kotlin + Android Integration Questions
+- How is Kotlin used in Android development?
+- Difference between Activity and Fragment in Kotlin?
+- How do you handle lifecycle in Kotlin?
+- How to implement ViewModel with Kotlin?
+- What are LiveData and StateFlow?
+- What is Jetpack Compose in Kotlin?
+- How does Kotlin work with Retrofit and Room?
+- How do you write Unit tests in Kotlin?
+- How to use Kotlin with Dagger/Hilt?
+- What are common design patterns used in Kotlin?
+- How to implement clean architecture in Android?
+- What are best practices for Android development with Kotlin?
+- How to test Compose UI?
+- How to use Firebase with Kotlin?
+- How to secure API keys in Kotlin Android app?
+- How to use WorkManager in Kotlin?
+- How to schedule background tasks with coroutines?
+- How to optimize app startup time?
+- How to implement dark theme using Jetpack Compose?
+
+  
+# 🧠 Expert-Level & Real-World Android Questions (Added)
+# Jetpack Compose: Advanced
+- How does recomposition work internally in Jetpack Compose?
+- What are key strategies to prevent unnecessary recomposition?
+- How to manage complex form UI state in Compose?
+- How to optimize LazyColumn performance?
+- What are keys in LazyColumn, and why are they important?
+- How do you apply animations in Jetpack Compose?
+- What is AnimatedVisibility in Compose?
+- How to use AnimatedContent for transitions?
+- How to detect gestures in Compose?
+- What are pointer input modifiers?
+- Clean Architecture + Architecture Patterns
+- What is Clean Architecture in Android?
+- What are the layers in Clean Architecture?
+- How does domain layer communicate with data layer?
+- Difference between Repository pattern and UseCase pattern?
+- What is separation of concerns in Android architecture?
+- How to implement interface-driven development in Android?
+- What is SOLID principle? How does it apply in Android?
+- How do you structure packages in a large Android project?
+- What is the benefit of using a shared result wrapper (sealed class)?
+- How to handle single source of truth in Clean Architecture?
+
+# Dependency Injection (DI)
+- What is dependency injection?
+- What is the difference between constructor injection and field injection?
+- What is Hilt and how is it different from Dagger?
+- How to inject a ViewModel using Hilt?
+- How to scope dependencies in Hilt (ActivityScoped, Singleton)?
+- How to inject interfaces using Hilt?
+- How to use Qualifiers in Hilt?
+- What is EntryPoint in Hilt?
+  
+# Testing
+- How to write unit tests for ViewModel?
+- What is mocking and how to use it in Kotlin?
+- How to test LiveData?
+- How to use CoroutineTestRule?
+- What is Robolectric and how is it used?
+- How to test Room Database?
+- How to test Compose UI?
+- How to test Flow or StateFlow?
+- Performance, Security & Misc
+- How do you improve app startup performance?
+- How to analyze memory leaks in Android?
+- What are common performance bottlenecks in Compose?
+- How to secure sensitive user data in Android?
+- How to detect ANRs (Application Not Responding)?
+- What is StrictMode in Android?
+- Bonus: Kotlin Gotchas & Patterns
+- What are some Kotlin pitfalls to watch out for?
+- How to use the Result class in Kotlin?
+- What is the difference between inline, noinline, and crossinline?
+- Explain the use of sealed interface.
+- How to use the Delegation pattern in Kotlin?
+- What are coroutine channels?
+- What is the difference between Job and Deferred?
+- How to handle multiple flows in parallel?
+
