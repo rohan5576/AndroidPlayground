@@ -85,3 +85,6 @@ zepto
 https://medium.com/@avula.koti.realpage/cracked-zepto-android-developer-interview-5046b88c6311
 https://medium.com/stackademic/cracked-zepto-android-developer-interview-5046b88c6311
 
+7-Eleven
+https://medium.com/@droiddikshit/7-eleven-android-interview-and-a-twist-at-the-end-e754aa0d302e
+
