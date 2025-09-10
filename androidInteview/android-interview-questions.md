@@ -21,3 +21,4 @@
 14. https://medium.com/@sharmapraveen91/kotlin-flow-the-deep-dive-every-android-dev-should-read-before-their-next-interview-e43b78cdee32
 15. https://medium.com/@ak123aryan/30-kotlin-interview-questions-cf8bf9e8c3c6
 16. https://medium.com/@ashfaque-khokhar/200-android-interview-questions-kotlin-jetpack-compose-for-all-experience-levels-aea50d93b2b7
+17. https://www.index.dev/interview-questions/jetpack-compose
