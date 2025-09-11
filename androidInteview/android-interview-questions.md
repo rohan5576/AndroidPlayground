@@ -22,3 +22,6 @@
 15. https://medium.com/@ak123aryan/30-kotlin-interview-questions-cf8bf9e8c3c6
 16. https://medium.com/@ashfaque-khokhar/200-android-interview-questions-kotlin-jetpack-compose-for-all-experience-levels-aea50d93b2b7
 17. https://www.index.dev/interview-questions/jetpack-compose
+18. https://medium.com/@androidwhisper/android-interview-series-most-commonly-asked-questions-for-experienced-developers-cbe9098ffaa2
+19. https://medium.com/codetodeploy/ace-your-android-interview-complete-lru-cache-questions-answers-guide-e540965b2bd2
+20. https://medium.com/codetodeploy/ace-your-android-interview-kotlin-coroutine-dispatchers-deep-dive-with-real-questions-expert-4b0c521531d4
