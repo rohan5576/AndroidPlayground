@@ -89,3 +89,6 @@ https://medium.com/stackademic/cracked-zepto-android-developer-interview-5046b88
 7-Eleven
 https://medium.com/@droiddikshit/7-eleven-android-interview-and-a-twist-at-the-end-e754aa0d302e
 
+Urban
+https://medium.com/@engineer-logs/urban-company-sde2-android-interview-experience-c2549dfbeef2
+
