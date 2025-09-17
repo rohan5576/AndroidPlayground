@@ -25,4 +25,6 @@
 18. https://medium.com/@androidwhisper/android-interview-series-most-commonly-asked-questions-for-experienced-developers-cbe9098ffaa2
 19. https://medium.com/codetodeploy/ace-your-android-interview-complete-lru-cache-questions-answers-guide-e540965b2bd2
 20. https://medium.com/codetodeploy/ace-your-android-interview-kotlin-coroutine-dispatchers-deep-dive-with-real-questions-expert-4b0c521531d4
-https://abhinay212.medium.com/all-in-one-android-interview-preparation-guide-dsa-kotlin-system-design-architecture-f9102719b172
+21. https://abhinay212.medium.com/all-in-one-android-interview-preparation-guide-dsa-kotlin-system-design-architecture-f9102719b172
+22. https://trricho.medium.com/you-think-you-know-android-multithreading-try-these-7-senior-interview-questions-0328ff05274f
+
